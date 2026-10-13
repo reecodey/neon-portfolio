@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon Portfolio | reecodey</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <div class="particles" id="particles"></div>
+
+  <nav>
+    <div class="logo">reecodey<span>.</span></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Full-stack & AI enthusiast</p>
+      <h1>Cześć, jestem <span class="gradient-text">reecodey</span></h1>
+      <p class="subtitle">Buduję nowoczesne aplikacje, eksperymentuję z AI i lubię czysty, szybki kod.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">Zobacz projekty</a>
+        <a href="#contact" class="btn secondary">Napisz do mnie</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="terminal">
+        <div class="terminal-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <pre id="typed-text"></pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>O mnie</h2>
+    <div class="about-grid">
+      <div class="card">
+        <h3>Code</h3>
+        <p>JavaScript, TypeScript, Python, React, Node.js. Lubię pisać czysty i czytelny kod.</p>
+      </div>
+      <div class="card">
+        <h3>AI & Local LLMs</h3>
+        <p>Eksperymentuję z lokalnymi modelami, automatyzacją i narzędziami AI.</p>
+      </div>
+      <div class="card">
+        <h3>Design</h3>
+        <p>Minimalizm, ciemne motywy, neonowe akcenty i płynne animacje.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projekty</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-tag">Web</div>
+        <h3>Neon Portfolio</h3>
+        <p>Ta strona – nowoczesne portfolio z animacjami i dark mode.</p>
+        <a href="#" class="project-link">Zobacz →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-tag">AI</div>
+        <h3>Local AI Setup</h3>
+        <p>Konfiguracja lokalnych modeli LLM na RTX 3060 z LM Studio.</p>
+        <a href="#" class="project-link">Więcej →</a>
+      </div>
+      <div class="project-card">
+        <div class="project-tag">Soon</div>
+        <h3>Coming soon...</h3>
+        <p>Nowe projekty pojawią się tutaj wkrótce.</p>
+        <a href="#" class="project-link">Stay tuned →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Kontakt</h2>
+    <p>Chcesz pogadać o projekcie lub współpracy?</p>
+    <a href="https://github.com/reecodey" target="_blank" class="btn primary">GitHub</a>
+  </section>
+
+  <footer>
+    <p>© 2026 reecodey · Made with ❤️ and neon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
